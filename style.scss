@@ -1,0 +1,107 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Poppins&display=swap’);
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ‘Poppins’, sans-serif;
+  }
+html{
+    background-image: url(./bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.form{
+    margin-top: 150px;
+    margin-left: 600px;
+    height: 400px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255,0.4);
+    border: 0 solid;
+
+    &__title{
+        color: #fff;
+        padding: 30px;
+    }
+
+    &__data{
+          padding: 20px;
+          position: relative;
+        .form__icon{
+            position: absolute;
+            top: 30px;
+            left: 25px;
+
+
+        }
+        .form__text{
+            height: 40px;
+            width:300px;
+            background-color: rgb(255, 255, 255,0.3);
+            border: 0 solid;
+            outline: 0;
+            border-radius: 5px;
+            padding-left: 30px;
+        }
+       
+    }
+
+    &__btn{
+        height: 40px;
+        width: 300px;
+        background-color:rgb(255, 255, 255,0.3);
+        border: 0 solid;
+        outline: 0;
+        color: #fff;
+        font-size: 18px ;
+        font-weight: bolder;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    &__or{
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    &__bottom{
+        display: flex;
+        .bottom__btn{
+            position: relative;
+            padding: 10px;
+            .btn__icon{
+                position: absolute;
+            }
+            .btm__btn{
+                height: 30px;
+                width: 140px;
+                background-color: rgb(255, 255, 255,0.3);
+                border: 0 solid;
+                outline: 0;
+                font-size: 16px;
+                color: #fff;
+                font-weight: bolder;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .bottom__btn{
+        position: relative;
+         .btn__icon {
+            position: absolute;
+            left: 25px;
+            top: 15px;
+        }
+    }
+}
+
+
+
